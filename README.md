@@ -148,7 +148,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:ivanmvh/math-magicians-ivanmvh.git
+  git clone git@github.com:ivanmvh/react-todo-app-ivanmvh.git
 ```
 
 ### Install
@@ -157,8 +157,8 @@ Install this project with:
 
 
 ```sh
-  cd math-magicians
-  gem install
+  cd my-folder
+  npm install
 ```
 
 ### Usage
@@ -175,6 +175,8 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
+npm test
+
 <!--
 Example command:
 
@@ -188,7 +190,7 @@ Example command:
 You can deploy this project using:
 
 
-> [GitHub pages](https://github.com/ivanmvh/math-magicians-ivanmvh/settings/pages) 
+> [GitHub pages](https://github.com/ivanmvh/react-todo-app-imvh/settings/pages) 
 > [netlify](https://www.netlify.com/)
 >[000webhost.com](https://www.000webhost.com/)
 
@@ -198,7 +200,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Ivan Martinez**
 
@@ -212,10 +213,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **Home Page**
-- [ ] **Calculation**
-- [ ] **Quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

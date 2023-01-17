@@ -1,6 +1,18 @@
 import React from 'react';
+/* eslint-disable react/prop-types */
+function TodoItem(props) {
+  const { todo } = props;
+  return (
+    <li>
+      <input type="checkbox" checked={todo.completed} onChange={() => props.handleChangeProps(todo.id)} />
+      {' '}
+      { todo.title }
+    </li>
+  );
+}
 
 // code as a class
+/*
 class TodoItem extends React.Component {
   render() {
     return (
@@ -15,11 +27,6 @@ class TodoItem extends React.Component {
       </li>
     );
   }
-}
-
-/* code as a function
-function TodoItem(props) {
-    return  <li>{props.todo.title}</li>
 }
 */
 

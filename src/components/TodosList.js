@@ -2,11 +2,15 @@ import React from 'react';
 import TodoItem from './TodoItem';
 /* eslint-disable react/prop-types */
 function TodosList(props) {
-  const { todos } = props;
+  const { todos, handleChangeProps } = props;
   return (
     <ul>
       {todos.map((todo) => (
-        <TodoItem key={todo.id} todo={todo} handleChangeProps={todos.handleChangeProps} />
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          handleChangeProps={handleChangeProps}
+        />
       ))}
     </ul>
   );

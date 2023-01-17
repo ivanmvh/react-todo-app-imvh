@@ -1,12 +1,17 @@
 import React from 'react';
 /* eslint-disable react/prop-types */
 function TodoItem(props) {
-  const { todo } = props;
+  const { todo, handleChangeProps } = props;
+  const { id, title, completed } = todo;
   return (
     <li>
-      <input type="checkbox" checked={todo.completed} onChange={() => props.handleChangeProps(todo.id)} />
+      <input
+        type="checkbox"
+        checked={completed}
+        onChange={() => handleChangeProps(id)}
+      />
       {' '}
-      { todo.title }
+      { title }
     </li>
   );
 }

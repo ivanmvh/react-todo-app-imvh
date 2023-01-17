@@ -27,9 +27,11 @@ class TodoContainer extends React.Component {
   }
 
   handleChange = (id) => {
+    const { todos } = this.state;
     this.setState({
-      todos: this.state.todos.map((todo) => {
+      todos: todos.map((todo) => {
         if (todo.id === id) {
+          // eslint-disable-next-line
           todo.completed = !todo.completed;
         }
         return todo;
@@ -38,11 +40,12 @@ class TodoContainer extends React.Component {
   };
 
   render() {
+    const { todos } = this.state;
     return (
       <div>
         <Header />
         <TodosList
-          todos={this.state.todos}
+          todos={todos}
           handleChangeProps={this.handleChange}
         />
       </div>

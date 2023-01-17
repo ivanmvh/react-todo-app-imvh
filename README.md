@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>REACT TUTORIAL</b></h3>
+  <h3><b>REACT TUTORIAL DOING A SIMPLE TODO APP</b></h3>
 
 </div>
 
@@ -62,24 +62,24 @@ After you're finished please remove all the comments and instructions!
 # 📖 REACT TUTORIAL<a name="about-project"></a>
 
 
-**react-todo-app-imvh** In this exercise, we are going to consolidate our knowledge about React, components, props, state, and hooks, by following a tutorial.
+**react-todo-app-imvh** In this exercise, we are going to consolidate our knowledge about React, components, props, state, and hooks, by following a tutorial following a tutorial and doing a simple todo app.
 
 You will follow the tutorial: React Tutorial From Scratch: A Step-by-Step Guide (2021), where you will develop a To do app!
 This tutorial, divided into several parts, is very comprehensive, and covers all main concepts about React, from the very basics to some intermediate topics. Feel free to skip the parts you think you don't need, since you already learned about these topics. This tutorial is not a substitute, just a reinforcement of what you have learned.
 Complete as much as possible in the estimated time.
 The tutorial is organized in the following sections:
-Part 1 - React tutorial: The beginner's guide to learning React in 2020.
-Part 2 - Working with React form and handling event.
-Part 3 – How to implement CSS in Reactjs app.
-Part 4 – How to edit to dos items.
-Part 5 – Persisting React state in local storage (Optional).
-Part 6 – Getting started with React lifecycle methods.
-Part 7 – Getting started with React hooks.
-Part 8 – How to use SVG icons in React (Optional).
-Part 9 – Routing with React Router.
-Note: The version of React Router Dom used in this tutorial (v5) is outdated. You can learn more about version 6 here and an official upgrading guide here.
-Part 10 – How to add hamburger menu in React (Optiona).
-Part 11 – Deploying React app to GitHub Pages (Optional).
+
+- [Part 1 - React tutorial: The beginner's guide to learning React in 2020](https://ibaslogic.com/react-tutorial-for-beginners/).
+  - [Part 2 - Working with React form and handling event](https://ibaslogic.com/react-form-handling/).
+  - [Part 3 – How to implement CSS in Reactjs app](https://ibaslogic.com/css-in-reactjs-app/).
+  - [Part 4 – How to edit to dos items](https://ibaslogic.com/how-to-edit-todos-items-in-react/).
+  - [Part 5 – Persisting React state in local storage](https://ibaslogic.com/persisting-react-state-in-local-storage/) (Optional).
+  - [Part 6 – Getting started with React lifecycle methods](https://ibaslogic.com/react-lifecycle-methods/).
+  - [Part 7 – Getting started with React hooks](https://ibaslogic.com/react-hooks-tutorial/).
+  - [Part 8 – How to use SVG icons in React](https://ibaslogic.com/how-to-use-svg-icons-in-react-project/) (Optional).
+  - [Part 9 – Routing with React Router](https://ibaslogic.com/routing-with-react-router/).
+  - [Part 10 – How to add hamburger menu in React](https://ibaslogic.com/how-to-add-hamburger-menu-in-react/) (Optiona).
+  - [Part 11 – Deploying React app to GitHub Pages](https://ibaslogic.com/deploying-react-app-to-github-pages/) (Optional).
 
 ## 🛠 Built With <a name="built-with"></a>
 

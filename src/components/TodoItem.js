@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './TodoItem.module.scss';
+import styles from './TodoItem.module.css';
 
 function TodoItem(props) {
   const { todo, handleChangeProps, deleteTodoProps } = props;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
 
 function TodosList(props) {
-  const { todos, handleChangeProps } = props;
+  const { todos, handleChangeProps, deleteTodoProps } = props;
   return (
     <ul>
       {todos.map((todo) => (
@@ -11,6 +11,7 @@ function TodosList(props) {
           key={todo.id}
           todo={todo}
           handleChangeProps={handleChangeProps}
+          deleteTodoProps={deleteTodoProps}
         />
       ))}
     </ul>
@@ -20,6 +21,7 @@ function TodosList(props) {
 TodosList.propTypes = {
   todos: PropTypes.arrayOf.isRequired,
   handleChangeProps: PropTypes.func.isRequired,
+  deleteTodoProps: PropTypes.func.isRequired,
 };
 
 export default TodosList;

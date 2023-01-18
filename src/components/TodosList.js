@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
-/* eslint-disable react/prop-types */
+
 function TodosList(props) {
   const { todos, handleChangeProps } = props;
   return (
@@ -16,22 +17,9 @@ function TodosList(props) {
   );
 }
 
-/* class TodosList extends React.Component {
-  render() {
-    return (
-      <ul>
-        {this.props.todos.map((todo) => (
-          <TodoItem
-            key={todo.id}
-            todo={todo}
-            handleChangeProps={this.props.handleChangeProps}
-          />
-        ))}
-      </ul>
-    );
-  }
-}
-
-*/
+TodosList.propTypes = {
+  todos: TodosList.isRequired,
+  handleChangeProps: PropTypes.func.isRequired,
+};
 
 export default TodosList;

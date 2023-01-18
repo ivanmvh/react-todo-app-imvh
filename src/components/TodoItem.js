@@ -1,5 +1,6 @@
 import React from 'react';
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
 function TodoItem(props) {
   const { todo, handleChangeProps } = props;
   const { id, title, completed } = todo;
@@ -16,23 +17,15 @@ function TodoItem(props) {
   );
 }
 
-// code as a class
-/*
-class TodoItem extends React.Component {
-  render() {
-    return (
-      <li>
-        <input
-          type="checkbox"
-          checked={this.props.todo.completed}
-          onChange={() => this.props.handleChangeProps(this.props.todo.id)}
-        />
-        {' '}
-        {this.props.todo.title}
-      </li>
-    );
-  }
-}
-*/
+TodoItem.propTypes = {
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  completed: PropTypes.bool.isRequired,
+};
+
+TodoItem.propTypes = {
+  todo: TodoItem.isRequired,
+  handleChangeProps: PropTypes.func.isRequired,
+};
 
 export default TodoItem;

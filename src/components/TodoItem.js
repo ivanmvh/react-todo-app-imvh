@@ -28,6 +28,12 @@ const TodoItem = (props) => {
     editMode.display = 'none';
   }
 
+  const handleUpdatedDone = (event) => {
+    if (event.key === 'Enter') {
+      setEditing(false);
+    }
+  };
+
   return (
     <li className={styles.item}>
       <div
@@ -56,6 +62,7 @@ const TodoItem = (props) => {
         onChange={(e) => {
           setUpdateProps(e.target.value, id);
         }}
+        onKeyDown={handleUpdatedDone}
       />
     </li>
   );
